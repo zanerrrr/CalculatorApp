@@ -35,10 +35,10 @@ namespace CalculatorApp
         static void Calc()
         {
             Console.WriteLine("You have entered the best option - The Calculator and now let's get counting!");
-            Console.WriteLine("Press 1 for addition!");
-            Console.WriteLine("Press 2 for subtraction!");
-            Console.WriteLine("Press 3 for multiplication!");
-            Console.WriteLine("Press 4 for division!");
+            Console.WriteLine("Press 1 for Addition!");
+            Console.WriteLine("Press 2 for Subtraction!");
+            Console.WriteLine("Press 3 for Multiplication!");
+            Console.WriteLine("Press 4 for Division!");
             string choice = Console.ReadLine();
             int youChoose = int.Parse(choice);
             Console.WriteLine("Enter 1st number: ");
@@ -73,6 +73,7 @@ namespace CalculatorApp
                     {
                         result = (number_1 / number_2);
                     }
+                    break;
                 default:
                     Console.WriteLine("Hmm... Something went wrong!");
                     break;
